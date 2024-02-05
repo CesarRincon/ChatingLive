@@ -1,0 +1,15 @@
+.containerDashboard {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 100vh;
+
+}
+.chatList {
+  height: 100%;
+  width: 30%;
+}
+.chat {
+  width: 70%;
+  padding: 10px;
+}

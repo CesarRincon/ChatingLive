@@ -1,0 +1,28 @@
+.containerChatList {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  align-items: center;
+}
+
+.searchChat {
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 25px;
+  background-color: #377afa;
+  border: none;
+  padding-left: 10px;
+  color: white;
+  font-weight: 600;
+
+}
+
+.searchChat::placeholder {
+    color: white;
+    font-weight: 600;
+}
+.searchChat:focus {
+    outline: none;
+}

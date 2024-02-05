@@ -1,0 +1,13 @@
+.headerContainer {
+  display: flex;
+  padding: 10px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #377afa;
+  align-items: center;
+}
+
+.titleName {
+  margin: 0 10px;
+  color: white;
+}

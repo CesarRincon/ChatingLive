@@ -1,0 +1,58 @@
+.containerChatCard {
+  display: flex;
+  background-color: #eff5ff;
+  height: 50px;
+  width: 90%;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 6px;
+}
+.containerChatCardSelected {
+  display: flex;
+  background-color: #377afa;
+  height: 50px;
+  width: 90%;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 6px;
+  color: white;
+}
+
+.containerChatCard:hover {
+    background-color: #b6e8fb;
+}
+
+.contentChatCard {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+}
+
+.chatContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatName {
+  margin: 5px 10px;
+}
+.chatMessage {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.chatContainerHour {
+  display: flex;
+}
+
+.chatHour {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 12px;
+}
